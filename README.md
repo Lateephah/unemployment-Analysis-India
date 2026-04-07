@@ -274,5 +274,3 @@ Employment level remains the clearest predictor of unemployment (negative correl
 * No sector-specific employment data
 * No macroeconomic indicators (GDP, inflation)
 * Build an interactive dashboard (Power BI / Tableau)
-
-Give this repo a star ⭐ and feel free to con
