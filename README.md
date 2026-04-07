@@ -113,17 +113,42 @@ The goal of this project is to demonstrate strong data analytics and storytellin
 ### Dataset A
 ![Unemployment Rate VS time Chart - Dataset A](images/unemployment_time_D1.png)
 
-Key Insight:
+**Explanation:**
 
-Shows that COVID-19 had an immediate and severe impact on unemployment, causing a sharp but temporary surge.
+This plot shows the average unemployment rate across all states over time.
+
+From the trend, unemployment appears relatively stable before early 2020, with moderate fluctuations. However, there is a **sharp spike around March–April 2020**, where unemployment increases significantly.
+
+This sudden rise corresponds to the onset of COVID-19 restrictions, which disrupted economic activities, reduced business operations, and led to widespread job losses.
+
+After this peak, the unemployment rate increased again in **May,2020** and  begins to decline drastically in **June, 2020**, suggesting recovery as restrictions eased.
+
+**Key Insight:**  
+COVID-19 had an immediate and severe impact on unemployment, causing a sharp but temporary surge.
+
 
 ![Impact - Dataset A](images/impact_D1.png)
 
-Key Insight:
+Before COVID-19:
+
+The North and East recorded the highest unemployment rates, indicating pre-existing structural challenges.
+The West and Northeast had relatively low unemployment levels, suggesting more stable labor conditions prior to the pandemic.
+
+After COVID-19:
+
+All regions experienced an increase in unemployment, confirming a widespread economic shock.
+However, the magnitude of change varied significantly across regions:
+The Northeast and West experienced the most dramatic increases, with unemployment rates nearly doubling.
+The South also saw a substantial rise, though not as extreme.
+The North and East recorded smaller proportional increases, despite already having high unemployment levels.
+
+**Key Insight**:
 
 COVID-19 had a universal impact, but its severity differed depending on the region’s starting point. Regions with initially low unemployment (West and Northeast) were more vulnerable to sudden economic shocks, experiencing the largest proportional increases. In contrast, regions with already high unemployment (North and East) remained the most affected in absolute terms but showed less relative change.
 
-![Employed VS unemployment Chart- Dataset B](images/employedVSunemployment_D2.png)
+
+![Employed VS unemployment Chart- Dataset A](images/employedVSunemployment_D1.png)
+
 **Explanation:**
 
 This scatter plot shows the relationship between the number of employed individuals and the unemployment rate across states.
@@ -137,10 +162,12 @@ From the plot:
 - A few points appears as **outliers**, where unemployment is high despite relatively large employment figures—this could indicate large labor forces where job creation is still insufficient.
 
 **Key Insight:**
-
+ 
 While higher employment generally corresponds to lower unemployment, the relationship is **weak to moderate rather than strong**, indicating that employment size alone does not fully explain unemployment levels. Other structural and regional factors also play a significant role.
 
+
 ![Labour VS unemployment Chart- Dataset A](images/LabourVSunemployment_D1.png)
+
 
 **Key Insight**:
 **Distribution of Points**: The data points are spread across the chart without forming a strong linear trend. This suggests that the relationship between participation and unemployment is complex and context-dependent.
@@ -153,6 +180,7 @@ In other clusters, higher participation aligns with lower unemployment, possibly
 
 
 ![Correlation Matrix - Dataset A](images/matrix_D1.png)
+
 
 **Key Insight**
 
