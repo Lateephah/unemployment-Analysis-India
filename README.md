@@ -113,6 +113,7 @@ The goal of this project is to demonstrate strong data analytics and storytellin
 ![Unemployment Rate VS time Chart - Dataset A](images/unemployment_time_D1.png)
 
 Key Insight:
+
 Shows that COVID-19 had an immediate and severe impact on unemployment, causing a sharp but temporary surge.
 
 ![Impact - Dataset A](images/impact_D1.png)
@@ -121,6 +122,40 @@ Key Insight:
 
 COVID-19 had a universal impact, but its severity differed depending on the region’s starting point. Regions with initially low unemployment (West and Northeast) were more vulnerable to sudden economic shocks, experiencing the largest proportional increases. In contrast, regions with already high unemployment (North and East) remained the most affected in absolute terms but showed less relative change.
 
+![Labour VS unemployment Chart- Dataset A](images/LabourVSunemployment_D1.png)
+
+**Key Insight**:
+**Distribution of Points**: The data points are spread across the chart without forming a strong linear trend. This suggests that the relationship between participation and unemployment is complex and context-dependent.
+
+**Patterns Observed**: In some clusters, higher participation coincides with higher unemployment, which could reflect situations where more people are actively seeking work but job creation is limited.
+
+In other clusters, higher participation aligns with lower unemployment, possibly indicating healthier labour markets where more people are employed.
+
+**Outliers** (i.e, like unemployment near and over 70%, a very high unemployment rate despite moderate participation) highlight exceptional cases, perhaps due to economic shocks or structural issues.
+
+
+![Correlation Matrix - Dataset A](images/matrix_D1.png)
+
+**Key Insight**
+
+
+This shows use literally everything, the matrix quantifies how strongly each pair of variables is related:
+
+For **Estimated Employed vs Unemployment Rate** the correlation is -0.25, which indicates a moderate negative correlation: as employment increases, unemployment tends to decrease. This is the strongest relationship in the matrix.
+
+**Labour Participation vs Unemployment Rate** as -0.074 which indicates a Very weak negative correlation: participation has little direct impact on unemployment, confirming the relationship is complex and indirect.
+
+Employment vs Labour Participation as -0.048 which indicates an essentially no correlation: being employed doesn’t strongly depend on participation rate in this dataset.
+
+**Geographic Factors** (longitude, latitude):
+
+**Unemployment vs longitude** as 0.15 (weak positive)
+
+**Unemployment vs latitude** as -0.024 (negligible)
+
+**Labour Participation vs latitude** as 0.40 (moderate positive correlation, the second strongest in the matrix)
+
+And Other geographic correlations like (longitude vs latitude = 0.13) are simply just very weak.
 
 
 ## ⚠️ Limitations
