@@ -110,6 +110,7 @@ The goal of this project is to demonstrate strong data analytics and storytellin
 
 ## 📉 Sample Visualizations
 
+### Dataset A
 ![Unemployment Rate VS time Chart - Dataset A](images/unemployment_time_D1.png)
 
 Key Insight:
@@ -156,6 +157,26 @@ Employment vs Labour Participation as -0.048 which indicates an essentially no c
 **Labour Participation vs latitude** as 0.40 (moderate positive correlation, the second strongest in the matrix)
 
 And Other geographic correlations like (longitude vs latitude = 0.13) are simply just very weak.
+
+### Dataset B
+
+![Unemployment Rate VS time Chart - Dataset B](images/unemployment_time_D2.png)
+
+
+![Impact - Dataset B](images/impact_D2.png)
+
+Key Insight:
+
+
+![Labour VS unemployment Chart- Dataset B](images/LabourVSunemployment_D2.png)
+
+**Key Insight**:
+
+
+
+![Correlation Matrix - Dataset B](images/matrix_D2.png)
+
+
 
 
 ## ⚠️ Limitations
