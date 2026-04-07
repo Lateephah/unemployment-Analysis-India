@@ -112,6 +112,15 @@ The goal of this project is to demonstrate strong data analytics and storytellin
 
 ![Unemployment Rate VS time Chart - Dataset A](images/unemployment_time_D1.png)
 
+Key Insight:
+Shows that COVID-19 had an immediate and severe impact on unemployment, causing a sharp but temporary surge.
+
+![Impact - Dataset A](images/impact_D1.png)
+
+Key Insight:
+
+COVID-19 had a universal impact, but its severity differed depending on the region’s starting point. Regions with initially low unemployment (West and Northeast) were more vulnerable to sudden economic shocks, experiencing the largest proportional increases. In contrast, regions with already high unemployment (North and East) remained the most affected in absolute terms but showed less relative change.
+
 
 
 ## ⚠️ Limitations
