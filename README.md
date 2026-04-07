@@ -110,7 +110,7 @@ The goal of this project is to demonstrate strong data analytics and storytellin
 
 ## 📉 Sample Visualizations
 
-
+![Unemployment Rate VS time Chart - Dataset A](images/unemployment_time_D1.png)
 
 
 
