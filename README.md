@@ -110,7 +110,7 @@ The goal of this project is to demonstrate strong data analytics and storytellin
 
 ## 📉 Sample Visualizations
 
-*(Add screenshots or links to your plots here)*
+
 
 
 
@@ -119,13 +119,6 @@ The goal of this project is to demonstrate strong data analytics and storytellin
 * Limited time range (mostly 2019–2020)
 * No sector-specific employment data
 * No macroeconomic indicators (GDP, inflation)
-
-
-## 🔮 Future Improvements
-
-* Incorporate more recent datasets
-* Add predictive modeling (forecast unemployment)
-* Include economic indicators for deeper insights
 * Build an interactive dashboard (Power BI / Tableau)
 
-Give this repo a star ⭐ and feel free to connect!
+Give this repo a star ⭐ and feel free to con
