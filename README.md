@@ -123,6 +123,23 @@ Key Insight:
 
 COVID-19 had a universal impact, but its severity differed depending on the region’s starting point. Regions with initially low unemployment (West and Northeast) were more vulnerable to sudden economic shocks, experiencing the largest proportional increases. In contrast, regions with already high unemployment (North and East) remained the most affected in absolute terms but showed less relative change.
 
+![Employed VS unemployment Chart- Dataset B](images/employedVSunemployment_D2.png)
+**Explanation:**
+
+This scatter plot shows the relationship between the number of employed individuals and the unemployment rate across states.
+
+
+From the plot:
+
+- There is a **general downward tendency**, where states with higher employment levels tend to have lower unemployment rates.
+- However, the points are **widely dispersed**, indicating that the relationship is not strictly linear.
+- Several states with similar employment levels show different unemployment rates, suggesting the influence of additional factors such as economic structure or population size.
+- A few points appears as **outliers**, where unemployment is high despite relatively large employment figures—this could indicate large labor forces where job creation is still insufficient.
+
+**Key Insight:**
+
+While higher employment generally corresponds to lower unemployment, the relationship is **weak to moderate rather than strong**, indicating that employment size alone does not fully explain unemployment levels. Other structural and regional factors also play a significant role.
+
 ![Labour VS unemployment Chart- Dataset A](images/LabourVSunemployment_D1.png)
 
 **Key Insight**:
@@ -162,21 +179,65 @@ And Other geographic correlations like (longitude vs latitude = 0.13) are simply
 
 ![Unemployment Rate VS time Chart - Dataset B](images/unemployment_time_D2.png)
 
+Key Insight:
+
+Both datasets validate that COVID-19 caused a significant spike in unemployment.
 
 ![Impact - Dataset B](images/impact_D2.png)
 
-Key Insight:
+Explanation:
 
+This analysis compares Urban and Rural unemployment before and after COVID-19.
+
+Before COVID:
+
+Both Urban and Rural unemployment were relatively low and stable
+After COVID:
+
+Both categories experienced increases
+Urban unemployment increased more significantly than Rural
+From the sample rows:
+
+Example: Andhra Pradesh Rural jumped from ~4% (March) to ~16% (April)
+**Key Insight**:
+Urban areas were more affected by COVID-19, likely due to dependence on service industries and business closures.
+
+![Employed VS unemployment Chart- Dataset B](images/employedVSunemployment_D2.png)
+
+**Explanation:**
+
+The scatter plot shows a **clear downward trend**, confirming a negative relationship:
+
+- Higher employment → Lower unemployment
+- Lower employment → Higher unemployment
+
+**Key Insight:**  
+Employment level is a strong inverse predictor of unemployment.
 
 ![Labour VS unemployment Chart- Dataset B](images/LabourVSunemployment_D2.png)
 
-**Key Insight**:
+**Explanation:**
+
+The regression line is relatively flat, indicating a **weak relationship**.
+
+There is no strong evidence that higher participation consistently increases or decreases unemployment.
+
+**Key Insight:**  
+Labour participation alone is not a reliable predictor of unemployment.
 
 
 
 ![Correlation Matrix - Dataset B](images/matrix_D2.png)
 
+This correlation matrix examines the relationships between employment, unemployment, and labour participation.
+- Estimated Employed vs Unemployment Rate (-0.22) indicates a Moderate negative correlation: as employment increases, unemployment tends to decrease. This is the strongest relationship in Dataset B.
+- Labour Participation vs Unemployment Rate (0.0026) indicates an essentially no correlation: participation does not directly explain unemployment outcomes.
+- Employment vs Labour Participation (0.011) indicates a negligible correlation: employment levels are not strongly tied to participation rate in this dataset.
 
+Key Insight:
+
+
+Employment level remains the clearest predictor of unemployment (negative correlation), while labour participation shows almost no direct relationship. The consistency of these findings with Dataset A strengthens confidence in the conclusion: employment is inversely linked to unemployment, but participation is not a reliable predictor.
 
 
 ## ⚠️ Limitations
